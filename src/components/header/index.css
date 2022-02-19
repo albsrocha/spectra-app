@@ -1,0 +1,28 @@
+header{
+    display: flex;
+    height: 10vh;
+    background: var(--bg-color);
+    justify-content: space-between;
+    width:100vw;
+    padding:1%;
+    align-items: center;
+    border-bottom: 2px solid var(--bg-color-2);
+}
+
+.header-top-logo{
+    display: flex;
+    padding: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    gap:20px;
+    align-items: center;
+    color:var(--text-color-2);
+    background: var(--bg-color);
+}
+
+.header-top-buttom{
+    display: flex;
+    gap:30px;
+    margin-right:20px;
+
+}

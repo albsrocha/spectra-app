@@ -1,0 +1,185 @@
+/* área geral da tela contatos */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  align-items: center;
+}
+/* área geral da inserção dados contatos */
+.input-area {
+  margin: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  height: 150px;
+  width: 100%;
+}
+
+.input-type-text {
+  width: 100%;
+  width: 25%;
+  height: 50px;
+  padding: 4px;
+  border: none;
+  border-bottom: 2px solid var(--bg-color-2);
+  background: var(--bg-color);
+  margin: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.btn {
+  padding: 15px 50px;
+  border: none;
+  cursor: pointer;
+  background: var(--bg-color-2);
+  border-radius: 10px;
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+
+.btn:hover {
+  box-shadow: 10px 10px 5px -5px rgba(54, 39, 39, 0.76);
+  transition: all 0.1s;
+}
+
+.check {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* dados do titulo tabela*/
+.tabela {
+  width: 90%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  background: var(--bg-color-2);
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  padding: 10px;
+  box-shadow: -1px 3px 5px -3px rgba(0, 0, 0, 0.69);
+  color: var(--text-color);
+  position: sticky;
+  top: 0;
+}
+
+/*Css para lista dependendo do numero de contatos*/
+
+.list-area {
+  display: flex;
+  gap: 10px;
+  width: 98%;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  overflow-y: scroll;
+}
+
+.tabela span {
+  width: 25%;
+  padding:0;
+}
+.lista {
+  width: 90%;
+  height: 50px;
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+  justify-content: space-between;
+  text-align: justify;
+  align-items: center;
+  padding: 10px;
+  box-shadow: -1px 3px 7px -3px rgba(0, 0, 0, 0.69);
+}
+
+.lista:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    15deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.5)
+  );
+  transition: all 0.5s;
+}
+
+.lista-data {
+  width: 25%;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 300;
+}
+
+/* telas menores que 1400px */
+
+@media screen and (max-width: 1400px) {
+  .btn {
+    padding: 15px 16px;
+    margin-right: 1%;
+  }
+}
+
+/* telas menores que 900px */
+
+@media screen and (max-width: 900px) {
+  .container {
+    width: 100%;
+  }
+
+  /* área geral da inserção dados contatos */
+  .input-area {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    gap: 0;
+
+  }
+  .input-type-text {
+    width: 90%;
+    margin: 1%;
+    text-transform: uppercase;
+
+  }
+
+  .check {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .btn {
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 0;
+  }
+
+  /* dados do titulo tabela*/
+  .tabela {
+    display: none;
+  }
+
+  .lista-area {
+    display: flex;
+    width: 100vw;
+    height: auto;
+  }
+
+
+
+  .lista,
+  .lista-data {
+    width: 95%;
+    font-size: 0.9em;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+
+  }
+}
