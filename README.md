@@ -24,32 +24,34 @@ O site responde em 3 tamanhos :
 ##### A organização é feita pela maneira onde eu me encontro para desenvolvimento, dentro de outros projetos entendo a necessidade de adaptação.
 
  ###### src/components
-    <p> Deixo tudo o que pode ser reutilizado caso queira criar uma página, como header, menu de navegação.
-        <br> No projeto temos o header inicial e navbar. Os dois são isolados e não estão dentro do mesmo componentes.
-    </p>
+    Deixo tudo o que pode ser reutilizado caso queira criar uma página, como header, menu de navegação.
+    No projeto temos o header inicial e navbar. Os dois são isolados e não estão dentro do mesmo componentes.
+  
 
  ###### src/screens
-    <p> Área onde eu desenvolvo as janelas de interação do usuário, como inserção de dados ou listagens.
-        <br> No projeto temos a pasta contacts responsável pelo tela de inserção de dados e listagens.
-     </p>
+    Área onde eu desenvolvo as janelas de interação do usuário, como inserção de dados ou listagens.
+    No projeto temos a pasta contacts responsável pelo tela de inserção de dados e listagens.
+   
 
 
 ### Imagem do Projetos
 
-#### Tela Full 1400px ++
-<img src="https://github.com/albsrocha/academiavivo/blob/main/img/full.png">
+#### Tela Full 
+<img src="https://github.com/albsrocha/spectra-app/blob/main/public/img/inicial.png">
+
+<br> DropDown Menu
+
+<img src="https://github.com/albsrocha/spectra-app/blob/main/public/img/menu.png">
 
 #### Tela 1400px --
-<img src="https://github.com/albsrocha/academiavivo/blob/main/img/1400px.png" width=1300>
+<img src="https://github.com/albsrocha/spectra-app/blob/main/public/img/mid.png" width=1300>
 
-#### Tela 800px --
+#### Tela Mobile --
 <img src="https://github.com/albsrocha/academiavivo/blob/main/img/800px.png" width=400>
 
-#### Botão com leve efeito com linear-gradient
-<img src="https://github.com/albsrocha/academiavivo/blob/main/img/bot%C3%A3o.png" with=50>
+#### Favicon navegador
+<img src="https://github.com/albsrocha/spectra-app/blob/main/public/img/navegador.png" with=50>
 
-#### Menu com border-bottom zoom e padding para seleção
-<img src="https://github.com/albsrocha/academiavivo/blob/main/img/menu.png" wdith=50>
 
  ### Sobre mim
 
