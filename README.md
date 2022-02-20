@@ -10,14 +10,28 @@
 
 O site responde em 3 tamanhos :
 
-    - Telas com resolução até 900px
-    - Telas com resolução até 1400px
-    - Telas superiores à resolução 1400px
+    - Telas com resolução altas;
+    - Telas com resolução até médias;
+    - Telas inforiores mobile;
     - ReactJS
     - BoxIcons
     - CSS
     - VSCODE
 
+### Requisitos:
+
+* Necessário fazer download da pasta projeto 
+* NODEJS e NPM no sistema para que possa instalar os pacotes necessários.
+
+### Instalação 
+
+Depois de baixar a pasta e ter nodejs instalado, basta acessar a pasta do projeto via terminal linux/windows/mac e rodar a linha
+    
+    - npm install
+
+Ao término basta executar:
+
+    - npm start
 
 ### Estruturas de pastas
 
@@ -43,18 +57,38 @@ O site responde em 3 tamanhos :
 
 <img src="https://github.com/albsrocha/spectra-app/blob/main/public/img/menu.png">
 
-#### Tela 1400px --
+#### Tela mid --
 <img src="https://github.com/albsrocha/spectra-app/blob/main/public/img/mid.png" width=1300>
 
 #### Tela Mobile --
-<img src="https://github.com/albsrocha/academiavivo/blob/main/img/800px.png" width=400>
+<img src="https://github.com/albsrocha/spectra-app/blob/main/public/img/mobile.png" width=400>
 
 #### Favicon navegador
 <img src="https://github.com/albsrocha/spectra-app/blob/main/public/img/navegador.png" with=50>
 
 
- ### Sobre mim
 
+## Podemos instalar como um WebApp a partir do navegador como se fosse um nativo
+ Há um pequeno arquivo manifest.json que ao escrever conseguimos fazer a identificação criando a identidade necessária.
+ 
+ ### Tela para instalar 
+ <img src="https://github.com/albsrocha/spectra-app/blob/main/public/img/install.png">
+ 
+ #### Tela Full App
+ <img src="https://github.com/albsrocha/spectra-app/blob/main/public/img/appfull.png">
+ #### Tela Mid App
+  <img src="https://github.com/albsrocha/spectra-app/blob/main/public/img/appmid.png">
+  
+  #### Tela Mobile App
+  
+  <img src="https://github.com/albsrocha/spectra-app/blob/main/public/img/mobile-webapp.png">
+ 
+ #### Painel de Sistema com logo do App
+ <img src="https://github.com/albsrocha/spectra-app/blob/main/public/img/painel-sistema.png">
+ 
+ 
+ ### Sobre mim
+  
  ##### Ola me chamo Alberto Rocha sou estudante de CODING e amo tecnologia. Me aventuro sempre em ler e ter mais conhecimentos sobre:
 
  <h4> Algumas habilidades e curiosidades. </h4>
