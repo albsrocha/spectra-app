@@ -1,22 +1,22 @@
-<h1 align="center"> Spectra Agenda </h1>
+<h1 align="center"> Spectra Agenda  </h1>
 
-<p> O obejtivo deste projeto realizar o desenvolvimento de uma agenda cadastros onde poderíamos incluir dados básicos para cadastro, ser adaptável em resoluções menores incluindo todos os elementos como menu dropdown, header e componenentes do proejetos.</p>
+<p> O objetivo deste projeto realizar o desenvolvimento de uma agenda contatos onde poderíamos incluir dados básicos para cadastro, ser adaptável em resoluções mobile incluindo todos os elementos como menu dropdown, header e componenentes do projeto.</p>
 
-<p> Com ReactJS posso trabalhar mais facilmente estado de usuário e utilizar componentes criados que facilitem o desenvolvimento. </p>
+<p> Com ReactJS posso trabalhar mais facilmente com estado do usuário e utilizar componentes criados que facilitem o desenvolvimento. </p>
 
-<p> Eu tenho objetivo de me especializar ainda mais em tecnologia web e mobile trazendo uma entrega que pode ser utilizada nos dois ambientes sem problemas, também quero aprender a escrever e melhorar meus códigos a cada dia reaproveitando o máximo tornando legível a quem possa utilizar e melhorar futuramente em uma equipe.</p>
+<p> Tenho objetivo de me especializar ainda mais em tecnologia web e mobile trazendo uma entrega que pode ser utilizada nos dois ambientes sem problemas, também quero aprender a escrever e melhorar meus códigos a cada dia reaproveitando o máximo tornando legível a quem possa utilizar.</p>
 
-<h2>Tecnologias usadas e descrição</h2>
+<h2>Tecnologias usadas e detalhamento </h2>
 
-O site responde em 3 tamanhos :
+O site responde em vários tamanhos :
 
-    - Telas com resolução altas;
-    - Telas com resolução até médias;
-    - Telas inforiores mobile;
-    - ReactJS
-    - BoxIcons
-    - CSS
-    - VSCODE
+    - Telas com resolução altas; ✓
+    - Telas com resolução até médias; ✓
+    - Telas Mobile (smartphone); ✓
+    - ReactJS ✓
+    - BoxIcons ✓
+    - CSS ✓
+    - VSCODE ✓
 
 ### Requisitos:
 
@@ -25,7 +25,7 @@ O site responde em 3 tamanhos :
 
 ### Instalação 
 
-Depois de baixar a pasta e ter nodejs instalado, basta acessar a pasta do projeto via terminal linux/windows/mac e rodar a linha
+Depois de baixar a pasta e ter nodejs instalado, basta acessar a pasta do projeto via terminal linux/windows/mac e rodar a linha abaixo: 
     
     - npm install
 
@@ -33,12 +33,14 @@ Ao término basta executar:
 
     - npm start
 
+##### Caso queria, pode instalar o termux terminal no smartphone e rodar através dele instalando o node e clonando repositório. 
+
 ### Estruturas de pastas
 
-##### A organização é feita pela maneira onde eu me encontro para desenvolvimento, dentro de outros projetos entendo a necessidade de adaptação.
+##### A organização é feita de mode que  eu me encontre para desenvolvimento, dentro de outros projetos entendo a necessidade de minha adaptação.
 
  ###### src/components
-    Deixo tudo o que pode ser reutilizado caso queira criar uma página, como header, menu de navegação.
+    Deixo tudo o que pode ser reutilizado caso queira criar uma página, como header, menu de navegação, button.
     No projeto temos o header inicial e navbar. Os dois são isolados e não estão dentro do mesmo componentes.
   
 
